@@ -15,7 +15,14 @@ body {
     box-sizing: border-box;
 }
 
-
+#card{
+  width: 450px;
+}
+@media screen and (max-width: 480px) {
+#card{
+  width: 300px;
+}
+}
 ::-webkit-scrollbar {
   width: 7px;
   background: rgb(233, 230, 251);

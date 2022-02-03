@@ -1,10 +1,11 @@
 import React from 'react';
+import "./App.scss"
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from 'react-router-dom';
 const News = ({data,id}) => {
   return <>
 
-<div  className="px-2 py-2 card  shadow-lg hover:scale-[1.1] transition-all  ease-in hover:bg-indigo-100 bg-indigo-50 w-[450px]  flex-col md:flex-row my-5 rounded-md flex mx-auto card">
+<div id='card' className="px-2 py-2  shadow-lg hover:scale-[1.1] transition-all  ease-in hover:bg-indigo-100 bg-indigo-50   flex-col md:flex-row my-5 rounded-md flex mx-auto card">
 <div className="md:w-6/12 img sm:w-full">
 <img src={data.urlToImage} className="object-cover h-full rounded-md "/>
 </div>
