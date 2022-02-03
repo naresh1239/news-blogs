@@ -9,7 +9,7 @@ const Navbar = () => {
     <span className='text-[1.9rem] animate-spin'><VscDebugStepOver/></span>
    
     
-    <div className='w-[90%] text-right  md:w-[50%] text-lg lg:text-[2.5rem]  '><small className='text-sm'>Make Your Day with </small> NEWS CENTER
+    <div className='w-[90%] text-right  md:w-[50%] text-lg lg:text-[2.5rem]  '> NEWS CENTER
    <h6 className='font-mono text-sm'> Best and Real News</h6>
    
     </div>

@@ -10,7 +10,7 @@ const Home = () => {
 
 
   return <>
- <div className="main flex flex-wrap pt-[100px] justify-between w-full xl:w-[80%] mx-auto px-5">
+ <div className="main flex flex-wrap pt-[100px] justify-between w-full xl:w-[80%] mx-auto ">
   
      
   {
@@ -19,7 +19,7 @@ const Home = () => {
 
       return(
         
-        <div className='px-5 mx-auto body'>
+        <div className='mx-auto body'>
         <News data={elem} id={id}/>
         </div>
        
