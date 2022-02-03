@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import { useParams,Link } from 'react-router-dom';
 import Data from "./data";
+
 const About = () => {
 
 
@@ -8,7 +9,7 @@ const About = () => {
     const {id} = useParams()
     
   return <>
-  <div className='px-5 mt-[100px] body'>
+  <div className='px-5 mb-[70px] mt-[100px] h-[80vh] body'>
       <main className='flex flex-col items-center justify-center my-5 shadow-lg sm:mx-5 md:mx-auto md:w-full lg:w-6/12 bg-indigo-50'>
 
      <div className='px-4 py-3 font-mono font-bold sm:text-sm lg:text-lg'>{data[id].title}</div>
@@ -21,6 +22,7 @@ const About = () => {
    </div>
      </main> 
      </div>
+
   </>;
 };
 

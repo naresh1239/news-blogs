@@ -2,6 +2,7 @@
 import React,{useState} from 'react';
 import News from "./News"
  import Data from "./data";
+import Footer from './Footer';
 
 const Home = () => {
    const [data,] = useState(Data.articles);
@@ -22,7 +23,6 @@ const Home = () => {
         <div className='mx-auto body'>
         <News data={elem} id={id}/>
         </div>
-       
         
       )
  
@@ -31,9 +31,12 @@ const Home = () => {
     )
    
   }
+    
  
      </div>
+     
   </>;
+  
 };
 
 export default Home;
